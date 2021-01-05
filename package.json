@@ -1,0 +1,42 @@
+{
+  "name": "otherdo",
+  "version": "0.0.1",
+  "description": "A todo app which enable you to adopt other people's todo-list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch backend --exec babel-node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hariswb/otherdo.git"
+  },
+  "keywords": [
+    "todo",
+    "nodejs",
+    "react",
+    "mongodb",
+    "dohackathon"
+  ],
+  "author": "hariswb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hariswb/otherdo/issues"
+  },
+  "homepage": "https://github.com/hariswb/otherdo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.10"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "nodemon": "^2.0.6"
+  }
+}
